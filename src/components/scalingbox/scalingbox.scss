@@ -1,0 +1,16 @@
+.scaling-box {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.scaling-box:hover {
+  transform: scale(1.2);
+}
