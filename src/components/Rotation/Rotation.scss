@@ -1,0 +1,15 @@
+.Rotation {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: transform 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.Rotation:hover {
+  transform: rotate(180deg);
+}
