@@ -1,0 +1,22 @@
+.Button3 {
+  background-color: antiquewhite;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+}
+
+@keyframes Button3Animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.Button3:hover {
+  background-color: aqua;
+  animation: Button3Animation 1s ease-in-out infinite;
+  
+}
