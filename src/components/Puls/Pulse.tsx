@@ -2,6 +2,6 @@ import "./Pulse.scss"
 
 export default function Pulse() {
   return (
-    <div className="pulse">Puls</div>
+    <div className="pulse">Pulse</div>
   )
 }

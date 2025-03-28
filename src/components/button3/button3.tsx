@@ -6,7 +6,7 @@ type Button3Props = {
 export default function Button3({hasIcon = false} :Button3Props) {
   return (
     <div>
-  <button className={`Button3 ${hasIcon ? "hasIcon" : ""}`}>Click me!</button>
+  <button className={`Button3 ${hasIcon ? "hasIcon" : ""}`}>Hover me!</button>
     </div>
   )
 }

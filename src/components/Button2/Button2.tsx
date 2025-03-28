@@ -9,7 +9,7 @@ export default function Button2({bgColor} : Readonly<ButtonProps> ) {
   }
   return (
     <div>
-      <button style={styleObjekt}>Click me!</button>
+      <button style={styleObjekt}>Static Button</button>
       </div>
   )
 }
